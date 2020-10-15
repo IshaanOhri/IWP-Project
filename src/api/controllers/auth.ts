@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import { code, message } from '../../config/messages';
-import User from '../../modals/user';
+import User from '../../modals/User';
 import logger from '../../logger/logger-config';
 
 const signUp = async (req: Request, res: Response) => {

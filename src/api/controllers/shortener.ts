@@ -3,7 +3,7 @@
 import { Request, Response } from 'express';
 import validator from 'validator';
 import { code, message } from '../../config/messages';
-import URL from '../../modals/url';
+import URL from '../../modals/URL';
 import logger from '../../logger/logger-config';
 import { getAsync, redisClient } from '../../app';
 
