@@ -5,4 +5,4 @@
 ##### Install NPM packages
 ```npm install```
 
-##### Insert dev.env file at /src/config/
+##### Insert ```dev.env``` file at ```/src/config/```
