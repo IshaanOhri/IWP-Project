@@ -7,5 +7,7 @@
 
 ##### Insert ```dev.env``` file at ```/src/config/```
 
+##### Start redis server on machine
+
 ##### Start
 ```npm run dev```
