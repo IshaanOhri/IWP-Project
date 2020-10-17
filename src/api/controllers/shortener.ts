@@ -10,7 +10,24 @@ import { getAsync, redisClient } from '../../app';
 const cryptoRandomString = require('crypto-random-string');
 
 const shortenURL = async (req: Request, res: Response) => {
-	let { url, shortHand, custom }: { url: string; shortHand: string; custom: boolean } = req.body;
+	if (!req.body.custom && (!req.body.url || !req.body.email)) {
+		res.status(400).send({
+			success: false,
+			code: code.wrongParameters,
+			message: message.wrongParameters
+		});
+		return;
+	}
+	if (req.body.custom && (!req.body.url || !req.body.shortHand || !req.body.email)) {
+		res.status(400).send({
+			success: false,
+			code: code.wrongParameters,
+			message: message.wrongParameters
+		});
+		return;
+	}
+
+	let { url, shortHand, custom, email }: { url: string; shortHand: string; custom: boolean; email: string } = req.body;
 
 	if (!validator.isURL(url)) {
 		res.status(200).send({
@@ -39,7 +56,7 @@ const shortenURL = async (req: Request, res: Response) => {
 				available = true;
 			}
 		}
-	} else if (custom && !shortHand.match(/^([a-zA-Z0-9]+[-_.~]?)+$/gm)) {
+	} else if (custom && !shortHand.match(/^([a-zA-Z0-9]+[-.~]?)+$/gm)) {
 		res.status(200).send({
 			success: false,
 			code: code.invalidCustomURL,
@@ -56,22 +73,25 @@ const shortenURL = async (req: Request, res: Response) => {
 				message: message.shortHandUnavailable
 			});
 		} else {
-			res.status(201).send({
-				success: true,
-				url,
-				shortHand: `${process.env.DOMAIN}/${shortHand}`
-			});
 			const urlDB = new URL({
 				url,
-				shortHand
+				shortHand,
+				email
 			});
 			try {
 				await urlDB.save();
-			} catch {
-				logger.error({
-					code: message.dbEntry,
-					message: message.dbEntry,
-					shortHand
+
+				res.status(201).send({
+					success: true,
+					url,
+					shortHand: `${process.env.DOMAIN}/${shortHand}`
+				});
+			} catch (err2) {
+				logger.error(err2);
+				res.status(500).send({
+					success: false,
+					code: code.serverError,
+					message: message.serverError
 				});
 			}
 		}

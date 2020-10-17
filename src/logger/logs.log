@@ -3850,3 +3850,219 @@
 [2020-10-15T11:37:41.333] [INFO] default - Method: POST URL: /login Status: 404 Resp Time: 41.205 ms
 [2020-10-15T11:37:47.526] [INFO] default - Method: POST URL: /login Status: 403 Resp Time: 41.402 ms
 [2020-10-15T11:37:50.943] [INFO] default - Method: POST URL: /login Status: 200 Resp Time: 41.028 ms
+[2020-10-15T12:23:47.587] [INFO] default - Server running on http://localhost:3000
+[2020-10-15T12:23:47.600] [INFO] default - Redis running at http://localhost:6379
+[2020-10-15T12:23:48.047] [INFO] default - Database connection successful
+[2020-10-15T20:05:07.639] [INFO] default - Redis connection failure
+[2020-10-15T20:05:07.999] [INFO] default - Redis connection failure
+[2020-10-15T20:05:08.606] [INFO] default - Redis connection failure
+[2020-10-15T20:05:09.589] [INFO] default - Redis connection failure
+[2020-10-15T20:05:11.261] [INFO] default - Redis connection failure
+[2020-10-15T20:05:14.112] [INFO] default - Redis connection failure
+[2020-10-15T20:05:18.944] [INFO] default - Redis connection failure
+[2020-10-15T20:05:27.162] [INFO] default - Redis running at http://localhost:6379
+[2020-10-15T20:16:51.497] [INFO] default - Redis connection failure
+[2020-10-15T20:16:51.845] [INFO] default - Redis connection failure
+[2020-10-15T20:16:52.429] [INFO] default - Redis connection failure
+[2020-10-15T20:16:53.422] [INFO] default - Redis connection failure
+[2020-10-15T20:16:55.100] [INFO] default - Redis connection failure
+[2020-10-15T20:16:57.943] [INFO] default - Redis connection failure
+[2020-10-15T20:17:02.780] [INFO] default - Redis connection failure
+[2020-10-15T20:17:10.995] [INFO] default - Redis connection failure
+[2020-10-15T20:17:24.959] [INFO] default - Redis connection failure
+[2020-10-15T20:17:48.693] [INFO] default - Redis connection failure
+[2020-10-15T20:18:29.039] [INFO] default - Redis connection failure
+[2020-10-15T20:19:37.620] [INFO] default - Redis connection failure
+[2020-10-15T20:21:34.209] [INFO] default - Redis connection failure
+[2020-10-15T20:24:52.411] [INFO] default - Redis connection failure
+[2020-10-15T20:30:29.366] [INFO] default - Redis connection failure
+[2020-10-15T20:40:02.154] [INFO] default - Redis connection failure
+[2020-10-15T23:37:54.680] [INFO] default - Redis connection failure
+[2020-10-16T00:03:36.178] [INFO] default - Method: GET URL: /css/style.css Status: 404 Resp Time: 33.439 ms
+[2020-10-16T00:04:36.126] [INFO] default - Method: GET URL: /background.png Status: undefined Resp Time: undefined ms
+[2020-10-16T00:06:15.025] [INFO] default - Redis connection failure
+[2020-10-16T00:06:15.036] [INFO] default - Redis connection failure
+[2020-10-18T00:41:43.351] [INFO] default - Server running on http://localhost:3000
+[2020-10-18T00:41:43.355] [INFO] default - Redis connection failure
+[2020-10-18T00:41:43.560] [INFO] default - Redis connection failure
+[2020-10-18T00:41:43.741] [INFO] default - Database connection successful
+[2020-10-18T00:41:43.902] [INFO] default - Redis connection failure
+[2020-10-18T00:41:44.481] [INFO] default - Redis connection failure
+[2020-10-18T00:41:45.468] [INFO] default - Redis connection failure
+[2020-10-18T00:41:47.141] [INFO] default - Redis connection failure
+[2020-10-18T00:41:49.984] [INFO] default - Redis connection failure
+[2020-10-18T00:41:54.819] [INFO] default - Redis connection failure
+[2020-10-18T00:42:03.031] [INFO] default - Redis connection failure
+[2020-10-18T00:42:16.995] [INFO] default - Redis connection failure
+[2020-10-18T00:42:40.731] [INFO] default - Redis connection failure
+[2020-10-18T00:43:21.074] [INFO] default - Redis connection failure
+[2020-10-18T00:44:29.657] [INFO] default - Redis connection failure
+[2020-10-18T00:46:26.281] [INFO] default - Redis connection failure
+[2020-10-18T00:48:28.128] [INFO] default - Server running on http://localhost:3000
+[2020-10-18T00:48:28.131] [INFO] default - Redis running at http://localhost:6379
+[2020-10-18T00:48:28.498] [INFO] default - Database connection successful
+[2020-10-18T00:48:38.290] [INFO] default - Method: GET URL: /css/style.css Status: 404 Resp Time: 3.319 ms
+[2020-10-18T00:48:38.307] [INFO] default - Method: GET URL: /background.png Status: 302 Resp Time: 20.006 ms
+[2020-10-18T00:48:41.088] [INFO] default - Method: GET URL: /urls Status: 302 Resp Time: 2.434 ms
+[2020-10-18T00:49:05.100] [INFO] default - Server running on http://localhost:3000
+[2020-10-18T00:49:05.103] [INFO] default - Redis running at http://localhost:6379
+[2020-10-18T00:49:05.512] [INFO] default - Database connection successful
+[2020-10-18T00:49:16.149] [INFO] default - Method: GET URL: /urls Status: 400 Resp Time: 3.022 ms
+[2020-10-18T00:49:16.410] [INFO] default - Method: GET URL: /favicon.ico Status: 302 Resp Time: 7.165 ms
+[2020-10-18T00:49:36.957] [INFO] default - Method: GET URL: /urls?email=ishaan99ohri@gmail.com Status: 200 Resp Time: 44.982 ms
+[2020-10-18T00:49:37.107] [INFO] default - Method: GET URL: /favicon.ico Status: 302 Resp Time: 0.940 ms
+[2020-10-18T00:55:47.032] [INFO] default - Method: GET URL: /health Status: 200 Resp Time: 1.919 ms
+[2020-10-18T00:57:23.238] [INFO] default - Method: GET URL: /create Status: 302 Resp Time: 47.873 ms
+[2020-10-18T00:57:34.567] [INFO] default - Method: POST URL: /create Status: 201 Resp Time: 11.743 ms
+[2020-10-18T00:57:34.570] [ERROR] default - {
+  code: 'Database entry failure',
+  message: 'Database entry failure',
+  shortHand: '4tdmO'
+}
+[2020-10-18T00:59:01.700] [INFO] default - Server running on http://localhost:3000
+[2020-10-18T00:59:01.703] [INFO] default - Redis running at http://localhost:6379
+[2020-10-18T00:59:02.151] [INFO] default - Database connection successful
+[2020-10-18T00:59:06.622] [INFO] default - Method: POST URL: /create Status: 400 Resp Time: 16.669 ms
+[2020-10-18T00:59:24.000] [INFO] default - Method: POST URL: /create Status: 400 Resp Time: 1.033 ms
+[2020-10-18T00:59:32.570] [INFO] default - Server running on http://localhost:3000
+[2020-10-18T00:59:32.573] [INFO] default - Redis running at http://localhost:6379
+[2020-10-18T00:59:32.966] [INFO] default - Database connection successful
+[2020-10-18T00:59:44.249] [INFO] default - Method: POST URL: /create Status: 400 Resp Time: 24.784 ms
+[2020-10-18T01:00:37.208] [INFO] default - Server running on http://localhost:3000
+[2020-10-18T01:00:37.211] [INFO] default - Redis running at http://localhost:6379
+[2020-10-18T01:00:37.569] [INFO] default - Database connection successful
+[2020-10-18T01:00:39.096] [INFO] default - Method: POST URL: /create Status: 201 Resp Time: 20.704 ms
+[2020-10-18T01:00:39.099] [ERROR] default - {
+  code: 'Database entry failure',
+  message: 'Database entry failure',
+  shortHand: 'uMD3e'
+}
+[2020-10-18T01:01:00.469] [INFO] default - Method: POST URL: /create Status: 201 Resp Time: 3.587 ms
+[2020-10-18T01:01:00.470] [ERROR] default - {
+  code: 'Database entry failure',
+  message: 'Database entry failure',
+  shortHand: 'JGMID'
+}
+[2020-10-18T01:03:31.873] [INFO] default - Server running on http://localhost:3000
+[2020-10-18T01:03:31.876] [INFO] default - Redis running at http://localhost:6379
+[2020-10-18T01:03:32.255] [INFO] default - Database connection successful
+[2020-10-18T01:03:34.549] [ERROR] default - Error: URL validation failed: owner: Path `owner` is required.
+    at ValidationError.inspect (/Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/mongoose/lib/error/validation.js:47:26)
+    at formatValue (internal/util/inspect.js:718:31)
+    at inspect (internal/util/inspect.js:287:10)
+    at formatWithOptions (internal/util/inspect.js:1910:40)
+    at Object.format (internal/util/inspect.js:1740:10)
+    at basicLayout (/Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/log4js/lib/layouts.js:62:57)
+    at app (/Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/log4js/lib/appenders/file.js:64:23)
+    at /Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/log4js/lib/log4js.js:42:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/log4js/lib/log4js.js:41:21)
+    at /Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/log4js/lib/clustering.js:23:26
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/log4js/lib/clustering.js:23:13)
+    at Object.send (/Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/log4js/lib/clustering.js:89:7)
+    at Logger._log (/Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/log4js/lib/logger.js:90:16)
+    at Logger.log (/Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/log4js/lib/logger.js:73:12) {
+  errors: {
+    owner: ValidatorError: Path `owner` is required.
+        at validate (/Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/mongoose/lib/schematype.js:1222:13)
+        at /Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/mongoose/lib/schematype.js:1205:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/mongoose/lib/schematype.js:1150:14)
+        at /Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/mongoose/lib/document.js:2439:18
+        at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'owner',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'URL validation failed'
+}
+[2020-10-18T01:03:34.563] [INFO] default - Method: POST URL: /create Status: 500 Resp Time: 61.338 ms
+[2020-10-18T01:03:35.982] [ERROR] default - Error: URL validation failed: owner: Path `owner` is required.
+    at ValidationError.inspect (/Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/mongoose/lib/error/validation.js:47:26)
+    at formatValue (internal/util/inspect.js:718:31)
+    at inspect (internal/util/inspect.js:287:10)
+    at formatWithOptions (internal/util/inspect.js:1910:40)
+    at Object.format (internal/util/inspect.js:1740:10)
+    at basicLayout (/Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/log4js/lib/layouts.js:62:57)
+    at app (/Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/log4js/lib/appenders/file.js:64:23)
+    at /Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/log4js/lib/log4js.js:42:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/log4js/lib/log4js.js:41:21)
+    at /Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/log4js/lib/clustering.js:23:26
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/log4js/lib/clustering.js:23:13)
+    at Object.send (/Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/log4js/lib/clustering.js:89:7)
+    at Logger._log (/Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/log4js/lib/logger.js:90:16)
+    at Logger.log (/Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/log4js/lib/logger.js:73:12) {
+  errors: {
+    owner: ValidatorError: Path `owner` is required.
+        at validate (/Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/mongoose/lib/schematype.js:1222:13)
+        at /Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/mongoose/lib/schematype.js:1205:7
+        at Array.forEach (<anonymous>)
+        at SchemaString.SchemaType.doValidate (/Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/mongoose/lib/schematype.js:1150:14)
+        at /Users/ishaanohri/Desktop/learning/IWP-Project/node_modules/mongoose/lib/document.js:2439:18
+        at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'owner',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'URL validation failed'
+}
+[2020-10-18T01:03:35.989] [INFO] default - Method: POST URL: /create Status: 500 Resp Time: 19.115 ms
+[2020-10-18T01:04:02.701] [INFO] default - Server running on http://localhost:3000
+[2020-10-18T01:04:02.704] [INFO] default - Redis running at http://localhost:6379
+[2020-10-18T01:04:03.076] [INFO] default - Database connection successful
+[2020-10-18T01:04:05.387] [INFO] default - Method: POST URL: /create Status: 201 Resp Time: 91.247 ms
+[2020-10-18T01:05:12.688] [INFO] default - Server running on http://localhost:3000
+[2020-10-18T01:05:12.691] [INFO] default - Redis running at http://localhost:6379
+[2020-10-18T01:05:13.068] [INFO] default - Database connection successful
+[2020-10-18T01:05:15.656] [INFO] default - Method: POST URL: /create Status: 201 Resp Time: 95.928 ms
+[2020-10-18T01:06:11.351] [INFO] default - Method: GET URL: /bpLEX Status: 302 Resp Time: 9.569 ms
+[2020-10-18T01:06:26.977] [INFO] default - Server running on http://localhost:3000
+[2020-10-18T01:06:26.981] [INFO] default - Redis running at http://localhost:6379
+[2020-10-18T01:06:27.390] [INFO] default - Database connection successful
+[2020-10-18T01:06:30.126] [INFO] default - Method: POST URL: /create Status: 201 Resp Time: 111.475 ms
+[2020-10-18T01:06:32.365] [INFO] default - Method: POST URL: /create Status: 201 Resp Time: 48.599 ms
+[2020-10-18T01:06:35.728] [INFO] default - Method: POST URL: /create Status: 400 Resp Time: 0.624 ms
+[2020-10-18T01:08:17.836] [INFO] default - Server running on http://localhost:3000
+[2020-10-18T01:08:17.840] [INFO] default - Redis running at http://localhost:6379
+[2020-10-18T01:08:18.199] [INFO] default - Database connection successful
+[2020-10-18T01:08:20.194] [INFO] default - Method: POST URL: /create Status: 201 Resp Time: 67.151 ms
+[2020-10-18T01:08:27.762] [INFO] default - Method: POST URL: /create Status: 400 Resp Time: 0.896 ms
+[2020-10-18T01:08:37.425] [INFO] default - Method: POST URL: /create Status: 201 Resp Time: 44.037 ms
+[2020-10-18T01:08:43.990] [INFO] default - Method: POST URL: /create Status: 201 Resp Time: 73.239 ms
+[2020-10-18T01:08:49.302] [INFO] default - Method: POST URL: /create Status: 201 Resp Time: 38.235 ms
+[2020-10-18T01:08:53.462] [INFO] default - Method: POST URL: /create Status: 400 Resp Time: 14.176 ms
+[2020-10-18T01:08:59.195] [INFO] default - Method: POST URL: /create Status: 400 Resp Time: 1.015 ms
+[2020-10-18T01:09:24.624] [INFO] default - Method: POST URL: /create Status: 201 Resp Time: 36.782 ms
+[2020-10-18T01:09:25.812] [INFO] default - Method: POST URL: /create Status: 200 Resp Time: 2.795 ms
+[2020-10-18T01:09:27.097] [INFO] default - Method: POST URL: /create Status: 200 Resp Time: 6.403 ms
+[2020-10-18T01:10:04.435] [INFO] default - Method: POST URL: /create Status: 201 Resp Time: 61.410 ms
+[2020-10-18T01:10:05.459] [INFO] default - Method: POST URL: /create Status: 201 Resp Time: 49.703 ms
+[2020-10-18T01:10:18.791] [INFO] default - Method: GET URL: /kx.EI Status: 302 Resp Time: 5.021 ms
+[2020-10-18T01:10:44.490] [INFO] default - Method: POST URL: /create Status: 201 Resp Time: 61.949 ms
+[2020-10-18T01:10:51.376] [INFO] default - Method: GET URL: /urls?email=ishaan99ohri@gmail.com Status: 200 Resp Time: 43.166 ms
+[2020-10-18T01:11:30.017] [INFO] default - Method: POST URL: /login Status: 404 Resp Time: 30.227 ms
+[2020-10-18T01:11:37.660] [INFO] default - Method: POST URL: /signUp Status: 200 Resp Time: 84.900 ms
+[2020-10-18T01:11:39.572] [INFO] default - Method: POST URL: /signUp Status: 200 Resp Time: 35.685 ms
+[2020-10-18T01:11:42.959] [INFO] default - Method: POST URL: /login Status: 200 Resp Time: 38.252 ms
+[2020-10-18T01:11:49.535] [INFO] default - Method: GET URL: /urls?email=ishaan99sohri@gmail.com Status: 200 Resp Time: 30.813 ms
+[2020-10-18T01:11:53.625] [INFO] default - Method: GET URL: /urls?email=ishaan99ohri@gmail.com Status: 200 Resp Time: 30.384 ms
+[2020-10-18T01:11:57.086] [INFO] default - Method: POST URL: /create Status: 201 Resp Time: 49.304 ms
+[2020-10-18T01:11:57.913] [INFO] default - Method: POST URL: /create Status: 201 Resp Time: 66.477 ms
+[2020-10-18T01:12:01.238] [INFO] default - Method: POST URL: /create Status: 200 Resp Time: 2.961 ms
+[2020-10-18T01:12:03.871] [INFO] default - Method: POST URL: /create Status: 200 Resp Time: 7.309 ms
+[2020-10-18T01:12:17.608] [INFO] default - Method: GET URL: /urls?email=ishaan99ohri@gmail.com Status: 200 Resp Time: 32.958 ms
+[2020-10-18T01:12:31.242] [INFO] default - Method: POST URL: /create Status: 201 Resp Time: 38.807 ms
+[2020-10-18T01:12:35.533] [INFO] default - Method: POST URL: /create Status: 200 Resp Time: 3.250 ms
+[2020-10-18T01:13:07.591] [INFO] default - Method: GET URL: /iwp-test Status: 302 Resp Time: 1.022 ms
+[2020-10-18T01:20:20.795] [INFO] default - Method: POST URL: /create Status: 200 Resp Time: 6.074 ms

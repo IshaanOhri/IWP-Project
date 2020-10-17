@@ -7,6 +7,7 @@ import logger from './logger/logger-config';
 import { message } from './config/messages';
 import shortener from './api/routes/shortener';
 import authRouter from './api/routes/auth';
+import urlRouter from './api/routes/url';
 
 require('./database/database');
 
@@ -56,8 +57,9 @@ app.get('/health', async (req, res) => {
 	});
 });
 
-app.use(shortener);
 app.use(authRouter);
+app.use(urlRouter);
+app.use(shortener);
 
 app.listen(PORT, () => {
 	logger.info(`Server running on http://localhost:${PORT}`);

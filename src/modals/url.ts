@@ -18,10 +18,10 @@ const URLSchema = new mongoose.Schema({
 		required: true,
 		trim: true
 	},
-	owner: {
-		type: mongoose.Schema.Types.ObjectId,
+	email: {
+		type: String,
 		required: true,
-		ref: 'User'
+		trim: true
 	}
 });
 
