@@ -1,13 +1,13 @@
 ### Steps to run project on localhost
-##### Clone the repository
+##### 1. Clone the repository
 ```git clone https://github.com/IshaanOhri/IWP-Project```
 
-##### Install NPM packages
+##### 2. Install NPM packages
 ```npm install```
 
-##### Insert ```dev.env``` file at ```/src/config/```
+##### 3. Insert ```dev.env``` file at ```/src/config/```
 
-##### Start redis server on machine
+##### 4. Start redis server on machine
 
-##### Start
+##### 5. Start server
 ```npm run dev```
