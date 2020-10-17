@@ -6,3 +6,6 @@
 ```npm install```
 
 ##### Insert ```dev.env``` file at ```/src/config/```
+
+##### Start
+```npm run dev```
