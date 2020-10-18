@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { code, message } from '../../config/messages';
-import User from '../../modals/User';
 import logger from '../../logger/logger-config';
+import User from '../../modals/User';
 
 const signUp = async (req: Request, res: Response) => {
 	if (!req.body.email || !req.body.password) {
