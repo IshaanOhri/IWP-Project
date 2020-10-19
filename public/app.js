@@ -96,7 +96,7 @@ async function shortenURL() {
 	let json;
 
 	if (originalURL != '' && !customURL) {
-		const req = await fetch('https://trimz.tk/create', {
+		const req = await fetch('https://iwp-project.ml/create', {
 			method: 'POST',
 			mode: 'cors',
 			headers: {
@@ -105,7 +105,8 @@ async function shortenURL() {
 			body: JSON.stringify({
 				url: originalURL,
 				shortHand: '',
-				custom: false
+				custom: false,
+				email: 'ishaan99ohri@gmail.com'
 			})
 		});
 
@@ -125,7 +126,7 @@ async function shortenURL() {
 			}, 3000);
 		}
 	} else if (longURL != '' && customURL && shortHandValue != '') {
-		const req = await fetch('https://trimz.tk/create', {
+		const req = await fetch('https://iwp-project.ml/create', {
 			method: 'POST',
 			mode: 'cors',
 			headers: {
@@ -134,7 +135,8 @@ async function shortenURL() {
 			body: JSON.stringify({
 				url: originalURL,
 				shortHand: shortHandValue,
-				custom: true
+				custom: true,
+				email: 'ishaan99ohri@gmail.com'
 			})
 		});
 

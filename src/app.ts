@@ -31,7 +31,7 @@ redisClient.on('error', () => {
 
 app.use(
 	express.static(path.join(__dirname, '../public'), {
-		index: 'index.html'
+		index: 'login.html'
 	})
 );
 
