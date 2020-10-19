@@ -10,9 +10,9 @@ $(document).ready(function () {
             "headers": {
                 "Content-Type": "application/json"
             },
-            "data": JSON.stringify({ "email": "ishaan99ohri@gmail.com", "password": "hello123" }),
+            "data": JSON.stringify({ "email": "ishaan99ohri@gmail.com" , "password": "hello123" }),
         };
-        $(".error1").remove();
+        $(".error").remove();
         if (email.length < 1) {
             $('#email').after('<span class="error">This field is required</span>');
         } else {
@@ -25,13 +25,13 @@ $(document).ready(function () {
         if (password.length < 8) {
             $('#password').after('<span class="error">Password must be at least 8 characters long</span>');
         }
-        else {
-            $.ajax(settings).done(function (response) {
-                console.log(response);
-                window.open("index.html", "_self");
-
-            });
-        }
+          else{
+               $.ajax(settings).done(function (response) {
+              console.log(response);
+               window.open("index.html", "_self");
+        
+        });
+    }
     });
 });
 

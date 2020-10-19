@@ -3,7 +3,6 @@ $(document).ready(function () {
         e.preventDefault();
         var email = $('#email').val();
         var password = $('#password').val();
-
         var settings = {
             "url": "https://iwp-project.ml/signUp",
             "method": "POST",
@@ -13,7 +12,7 @@ $(document).ready(function () {
             },
             "data": JSON.stringify({ "email": email, "password": password }),
         };
-        $(".error1").remove();
+        $(".error").remove();
         if (email.length < 1) {
             $('#email').after('<span class="error">This field is required</span>');
         } else {
