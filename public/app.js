@@ -96,7 +96,7 @@ async function shortenURL() {
 	let json;
 
 	if (originalURL != '' && !customURL) {
-		const req = await fetch('https://iwp-project.ml/create', {
+		const req = await fetch('https://trimz.tk/create', {
 			method: 'POST',
 			mode: 'cors',
 			headers: {
@@ -125,7 +125,7 @@ async function shortenURL() {
 			}, 3000);
 		}
 	} else if (longURL != '' && customURL && shortHandValue != '') {
-		const req = await fetch('https://iwp-project.ml/create', {
+		const req = await fetch('https://trimz.tk/create', {
 			method: 'POST',
 			mode: 'cors',
 			headers: {

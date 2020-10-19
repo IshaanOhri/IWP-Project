@@ -1,0 +1,111 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My URLs</title>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js">
+    </script>
+
+    <style>
+
+        body {
+            background-image: url('https://www.itl.cat/pngfile/big/73-737396_android-material-wallpaper-graphics.png');
+            background-position-y: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+            font-family: 'Numans', sans-serif;
+            overflow: hidden;
+        }
+
+        table {
+            margin: 0 auto;
+            font-size: large;
+            border: 1px solid black;
+        }
+
+        h1 {
+            margin-top: 150px;
+            text-align: center;
+            color: #03dac6;
+            font-size:46px;
+
+
+        }
+        tr
+
+        td {
+
+            border: 1px solid #03dac6;
+        }
+
+        th,
+        td {
+
+            font-weight: bold;
+            border: 1px solid #03dac6;
+            padding: 10px;
+            text-align: center;
+            color: #03dac6;
+        }
+
+        td {
+            font-weight: lighter;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>TRIM</h1>
+
+        <table id='table'>
+
+            <tr>
+                <th>long Urls</th>
+                <th>Short Urls</th>
+
+
+            </tr>
+
+            <script>
+                $(document).ready(function () {
+
+
+                    var student = {
+                        "url": "https://iwp-project.ml/urls?email=ishaan99ohri@gmail.com",
+                        "method": "GET",
+                        "timeout": 0,
+                    };
+
+                    $.ajax(student).done(function (response) {
+                        console.log(response);
+
+
+                        $.each(response.urls, function (key, value) {
+
+
+                            student += '<tr>';
+                            student += '<td>' +
+                                value.url + '</td>';
+
+                            student += '<td>' + 'https://iwp-project.ml/' +
+                                value.shortHand + '</td>';
+
+
+
+
+                            student += '</tr>';
+                        });
+
+
+                        $('#table').append(student);
+                    });
+                });
+            </script>
+    </section>
+</body>
+
+</html>
