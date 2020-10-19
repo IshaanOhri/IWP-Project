@@ -18,7 +18,7 @@ const shortenURL = async (req: Request, res: Response) => {
 		});
 		return;
 	}
-	if (!req.body.custom || !req.body.url || !req.body.shortHand || !req.body.email) {
+	if (req.body.custom && (!req.body.url || !req.body.shortHand || !req.body.email)) {
 		res.status(400).send({
 			success: false,
 			code: code.wrongParameters,

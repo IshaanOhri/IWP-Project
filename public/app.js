@@ -104,7 +104,7 @@ async function shortenURL() {
 			},
 			body: JSON.stringify({
 				url: originalURL,
-				shortHand: '',
+				shortHand: ' ',
 				custom: false,
 				email: 'ishaan99ohri@gmail.com'
 			})
