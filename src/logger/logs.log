@@ -4066,3 +4066,17 @@
 [2020-10-18T01:12:35.533] [INFO] default - Method: POST URL: /create Status: 200 Resp Time: 3.250 ms
 [2020-10-18T01:13:07.591] [INFO] default - Method: GET URL: /iwp-test Status: 302 Resp Time: 1.022 ms
 [2020-10-18T01:20:20.795] [INFO] default - Method: POST URL: /create Status: 200 Resp Time: 6.074 ms
+[2020-10-19T16:47:14.830] [INFO] default - Server running on http://localhost:3000
+[2020-10-19T16:47:14.836] [INFO] default - Redis running at http://localhost:6379
+[2020-10-19T16:47:20.242] [INFO] default - Database connection successful
+[2020-10-19T16:47:45.821] [INFO] default - Method: OPTIONS URL: /login Status: 204 Resp Time: 1.766 ms
+[2020-10-19T16:47:45.943] [INFO] default - Method: POST URL: /login Status: 200 Resp Time: 120.232 ms
+[2020-10-19T16:49:15.973] [INFO] default - Method: GET URL: /favicon.ico Status: 302 Resp Time: 5.028 ms
+[2020-10-19T17:19:12.287] [INFO] default - Method: OPTIONS URL: /login Status: 204 Resp Time: 0.337 ms
+[2020-10-19T17:19:13.564] [INFO] default - Method: POST URL: /login Status: 200 Resp Time: 1273.303 ms
+[2020-10-19T17:22:41.371] [INFO] default - Method: GET URL: /favicon.ico Status: 302 Resp Time: 0.666 ms
+[2020-10-19T17:22:43.184] [INFO] default - Method: GET URL: /favicon.ico Status: 302 Resp Time: 0.560 ms
+[2020-10-19T17:23:02.261] [INFO] default - Method: OPTIONS URL: /login Status: 204 Resp Time: 0.100 ms
+[2020-10-19T17:23:02.338] [INFO] default - Method: POST URL: /login Status: 200 Resp Time: 75.152 ms
+[2020-10-19T17:49:32.750] [INFO] default - Method: POST URL: /signUp Status: 400 Resp Time: 0.881 ms
+[2020-10-19T17:49:33.051] [INFO] default - Method: GET URL: /favicon.ico Status: 302 Resp Time: 0.747 ms
