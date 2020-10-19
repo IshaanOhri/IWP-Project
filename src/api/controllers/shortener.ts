@@ -10,15 +10,7 @@ import { getAsync, redisClient } from '../../app';
 const cryptoRandomString = require('crypto-random-string');
 
 const shortenURL = async (req: Request, res: Response) => {
-	if (!req.body.custom && (!req.body.url || !req.body.email)) {
-		res.status(400).send({
-			success: false,
-			code: code.wrongParameters,
-			message: message.wrongParameters
-		});
-		return;
-	}
-	if (req.body.custom && (!req.body.url || !req.body.shortHand || !req.body.email)) {
+	if (!req.body.url || !req.body.shortHand || !req.body.email) {
 		res.status(400).send({
 			success: false,
 			code: code.wrongParameters,
