@@ -28,7 +28,7 @@ $(document).ready(function () {
         else {
             $.ajax(settings).done(function (response) {
                 console.log(response);
-                window.open("index.html", "_self");
+                window.open("loggedindex.html", "_self");
 
             });
         }
